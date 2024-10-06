@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "RenderSpy"
 include(":app")
+include(":renderSpy")
