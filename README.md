@@ -2,23 +2,22 @@
 
 
 
-**dependencyResolutionManagement {
-		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-		repositories {
-			mavenCentral()
-			maven { url 'https://jitpack.io' }
-		}
-	}
+### Root `settings.gradle`
+```groovy
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
 
 
 
-Dependency
+### Dependency
+
 
 dependencies {
 	        implementation 'com.github.AndroidCrafts-man:RenderSpy:Tag'
-	}**
+	}
 
-
-dependencies {
-    implementation 'com.github.AndroidCrafts-man:RenderSpy:Tag'
-}
