@@ -14,8 +14,6 @@ dependencyResolutionManagement {
 
 
 
-### Dependency
-
 
 dependencies {
 	        implementation 'com.github.AndroidCrafts-man:RenderSpy:Tag'
