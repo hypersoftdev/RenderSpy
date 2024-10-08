@@ -4,9 +4,11 @@ import android.app.Activity
 import android.app.Application
 import android.view.View
 import com.base.render.monitoring.AppTtiListener
+import com.performance.renderspy.startup.AppStartupTimeTracker
 import com.performance.renderspy.tti.BaseTtiTracker
 import com.performance.renderspy.tti.ViewTtiTracker
 import com.performance.renderspy.tti.helper.ActivityTtfrHelper
+import com.sample.renderspy.monitoring.AppStartupTimeListener
 
 class MainApplication : Application() {
 
@@ -14,7 +16,7 @@ class MainApplication : Application() {
         super.onCreate()
 
 //        // setup startup time tracking
-//        AppStartupTimeTracker.register(this, AppStartupTimeListener)
+        AppStartupTimeTracker.register(this, AppStartupTimeListener)
 //
 //        // setup rendering performance tracking
 //        ActivityFrameMetricsTracker.register(this, ActivityFrameMetricsListener)
