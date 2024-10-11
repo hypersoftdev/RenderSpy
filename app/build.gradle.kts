@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.sample.renderspy"
+    namespace = "com.hypersoft.performance.renderspy"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.sample.renderspy"
+        applicationId = "com.hypersoft.performance.renderspy"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -42,8 +42,6 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    implementation(project(":renderSpy"))
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation(project(":renderspy123"))
 }
