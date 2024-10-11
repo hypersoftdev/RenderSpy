@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/AndroidCrafts-man/RenderSpy.svg)](https://jitpack.io/#AndroidCrafts-man/RenderSpy)
+[![](https://jitpack.io/v/hypersoftdev/RenderSpy.svg)](https://jitpack.io/#hypersoftdev/RenderSpy)
 
 ## RenderSpy
 
@@ -19,7 +19,7 @@ repositories {
 
 ### Step B: Add Dependencies
 
-In your app-level **build.gradle** file, add the library dependency. Use the latest version: [![](https://jitpack.io/v/hypersoftdev/CropView.svg)](https://jitpack.io/#hypersoftdev/CropView)
+In your app-level **build.gradle** file, add the library dependency. Use the latest version: [![](https://jitpack.io/v/hypersoftdev/RenderSpy.svg)](https://jitpack.io/#hypersoftdev/RenderSpy)
 
 Groovy Version
 ```
