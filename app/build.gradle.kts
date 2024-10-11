@@ -43,5 +43,5 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
 
-    implementation(project(":renderspy123"))
+    implementation(project(":renderspy"))
 }
