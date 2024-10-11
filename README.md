@@ -161,11 +161,21 @@ class MyMainActivity : Activity() {
 ```
 Then you can call `viewTtiTracker.onScreenIsUsable()` in Fragments the same way as described above.
 
+
+## Demo Screen
+
+![screen1](https://github.com/user-attachments/assets/4cad9473-d6da-468b-8741-77c5aef58cbd)
+
+
+https://github.com/user-attachments/assets/224c3b84-843c-4b23-84f1-f9272ce855aa
+
+
+
 # Acknowledgements
 
 This work would not have been possible without the invaluable contributions of [Saeed Khattak](https://github.com/AndroidCrafts-man). His expertise, dedication, and unwavering support have been instrumental in bringing this project to fruition.
 
-![Profile]()
+![profile_image](https://github.com/user-attachments/assets/b5619011-7736-4c96-988d-162ded5e41b1)
 
 We are deeply grateful for [Saeed Khattak](https://github.com/AndroidCrafts-man) involvement and his belief in the importance of this work. His contributions have made a significant impact, and we are honored to have had the opportunity to collaborate with him.
 
